@@ -32,5 +32,22 @@
 20. `<jsp:setProperty name="id cua bean o tren" property="">` : set a property cho 1 javaBean Instance
 21. `<jsp:getProperty>` : lấy 1 thuộc tính của 1 JavaBean Instance được chỉ định
 
+### JSP Standard Tag Library (JSTL)
+#### JSTL Core tags
+22. `<c:catch />` : 
+23. `<c:choose />` :
+24. `<c:if />` :
+25. `<c:import />` :
+26. `<c:forEach />` :
+27. `<c:forTokens />` :
+28. `<c:out />` :
+29. `<c:otherwise />` :
+30. `<c:param />` :
+31. `<c:redirect />` :
+32. `<c:remove />` :
+33. `<c:set />` :
+34. `<c:url />` :
+35. `<c:when />` :
+36. 
 
  
