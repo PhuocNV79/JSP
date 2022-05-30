@@ -11,3 +11,11 @@
 7. out : jspWritter for including content in HTML page
 8. session : unique session for each user in web application
 9. application : 
+
+### Including Files with JSP
+10: `<jsp:include page = "ten file"/>` : include 1 file nào đó vào file jsp hiện tại 
+
+### Get Form data
+11. `<%= request.getParameter("tenCuaThe")%>` : Lấy thông tin input của thẻ trong form
+12. ${param.tenCuaThe} : Lấy thông tin input của thẻ trong form
+ 
