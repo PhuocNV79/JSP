@@ -62,21 +62,24 @@
 43. fn:indexOf()
 44. fn:trim()
 45. fn:startsWith()
-46. fn:split()
+46. fn:split(data, ",")
 47. fn:substring()
 48. fn:substringAfter()
 49. fn:replace()
 
 #### JSTL Formatting tags https://www.javatpoint.com/jstl-formatting-tags
 50. <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"  %>  
-51. <fmt:parseNumber var="j" integerOnly="true" type="number" value="${Amount}" /> 
-52. fmt:timeZone
-53. fmt:formatNumber
-54. fmt:parseDate
-55. fmt:bundle
-56. fmt:setTimeZone
-57. fmt:setBundle
-58. fmt:message
-59. fmt:formatDate
+51. Các thẻ này thường đặt trong value="", để xử lý trước khi trả về giá trị cho var="abc"
+52. <fmt:parseNumber var="j" integerOnly="true" type="number" value="${Amount}" /> 
+53. fmt:timeZone
+54. fmt:formatNumber
+55. fmt:parseDate
+56. fmt:bundle
+57. fmt:setTimeZone
+58. fmt:setBundle
+59. fmt:message
+60. fmt:formatDate
+
+### Muti-Lingual App with JSTL -i18n Tags
 
  
