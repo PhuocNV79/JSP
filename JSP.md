@@ -32,22 +32,25 @@
 20. `<jsp:setProperty name="id cua bean o tren" property="">` : set a property cho 1 javaBean Instance
 21. `<jsp:getProperty>` : lấy 1 thuộc tính của 1 JavaBean Instance được chỉ định
 
+
+## JSP Standard Tag Library & Custom Tag
 ### JSP Standard Tag Library (JSTL)
 #### JSTL Core tags
 22. `<c:catch />` : 
-23. `<c:choose />` :
-24. `<c:if />` :
-25. `<c:import />` :
-26. `<c:forEach />` :
-27. `<c:forTokens />` :
-28. `<c:out />` :
-29. `<c:otherwise />` :
-30. `<c:param />` :
-31. `<c:redirect />` :
-32. `<c:remove />` :
-33. `<c:set />` :
-34. `<c:url />` :
-35. `<c:when />` :
+23. `<c:when >` :
+24. `<c:choose > <c:when > write your code </c:when > <c:otherwise> write your code </c:otherwise> </c:choose >` :
+25. `<c:otherwise>` :
+26. `<c:if test="${tempStudent.goldCustomer }">Data can thien thi </c:if>` : core if tag hien thi theo dieu kien
+27. `<c:import />` :
+28. `<c:forEach> write your code here </c:forEach>` :
+29. `<c:forTokens />` :
+30. `<c:out />` :
+31. `<c:param />` :
+32. `<c:redirect />` :
+33. `<c:remove />` :
+34. `<c:set />` :
+35. `<c:url />` :
 36. 
+37. 
 
  
