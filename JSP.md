@@ -35,7 +35,7 @@
 
 ## JSP Standard Tag Library & Custom Tag
 ### JSP Standard Tag Library (JSTL)
-#### JSTL Core tags
+#### JSTL Core tags https://www.javatpoint.com/jstl-core-tags
 22. `<c:catch />` : 
 23. `<c:when >` :
 24. `<c:choose > <c:when > write your code </c:when > <c:otherwise> write your code </c:otherwise> </c:choose >` :
@@ -50,7 +50,33 @@
 33. `<c:remove />` :
 34. `<c:set />` :
 35. `<c:url />` :
-36. 
-37. 
+
+#### JSTL function tags https://www.javatpoint.com/jstl-function-tags
+36. `<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>` : insert this code to use function tags
+37. ${fn:length("text or variable")}
+38. ${fn:toUpperCase(String)}
+39. fn:contains()
+40. fn:containsIgnoreCase()
+41. fn:endsWith()
+42. fn:escapeXml()
+43. fn:indexOf()
+44. fn:trim()
+45. fn:startsWith()
+46. fn:split()
+47. fn:substring()
+48. fn:substringAfter()
+49. fn:replace()
+
+#### JSTL Formatting tags https://www.javatpoint.com/jstl-formatting-tags
+50. <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"  %>  
+51. <fmt:parseNumber var="j" integerOnly="true" type="number" value="${Amount}" /> 
+52. fmt:timeZone
+53. fmt:formatNumber
+54. fmt:parseDate
+55. fmt:bundle
+56. fmt:setTimeZone
+57. fmt:setBundle
+58. fmt:message
+59. fmt:formatDate
 
  
